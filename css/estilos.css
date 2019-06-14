@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 0px solid #000000;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../images/wallpaper.jpg);
+    background-attachment: fixed;
+    color: #000;
+    font-family: sans-serif;
+}
+
+
+.header{
+    background: #1B7F79;
+}
+
+.imagen{
+    border-radius: 10px solid black;
+    border: 10px solid #b4b4b4;
+}
+
+.listadoMenu{
+    background: #00CCC0;
+}
+
+.fondoMenu{
+    background-color: black;
+}
+
+
+.botonPlato{
+    border: 0;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.botonPlato:hover{
+    border: 0;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+    color:#00CCC0;
+    background: white;
+}
+
+.precios{
+    background: #00CCC0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloPrecios{
+    font-family: 'Shadows Into Light Two', sans-serif;
+    font-size: 50px;
+    color: black;
+    
+}
+
+.botonMercadopago{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    margin: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+.botonMercadopago:hover{
+    opacity: .8;
+}
+
+.redesSociales{
+    background: #00CCC0;
+    width: 35%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formularioContacto{
+    background: #747F7F;
+    width: 450px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.tituloFormulario{
+    font-family: 'Shadows Into Light Two', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+input ,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #00CCC0;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#boton:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.ubicacion{
+    background-color: #1B7F79;
+    padding: 20px;
+    width: auto;
+}
+
+.textoUbicacion{
+    font-size: 25px;
+    color: white;
+}
+
+.tituloUbicacion{
+    font-family: 'Shadows Into Light Two', sans-serif;
+    font-size: 50px;
+}
+
+.mapaUbicacion{
+    border-radius: 20px 20px 20px 20px;
+    border: 10px solid #747F7F;
+}
+
+iframe {
+ max-width: 100%;
+ height: 350px;;
+}
+
+.footer{
+    background: #72F2EB;
+    color: black;
+    font-size: 10px;
+    height: 30px;
+    width: 100%;
+}
+

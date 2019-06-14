@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Pepper</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="contenedor">
+         <!**********Comiendo del Header**********>  
+        <header class="header">
+            <h2 class="tituloHeader">Green Pepper</h2>
+            <nav class="navegacion">
+                <ul class="menuHeader">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#ubicacion">Ubicacion</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>                   
+            </nav>
+            <!**********Dropdown para celulares**********>
+            <div class="menuDrop">
+                <button class="menuDrop">
+                    <img src="images/logoMenu.png" alt="" class="logoMenu">
+                </button>
+                <div class="menuDrop-content">
+                <a href="#">Inicio</a>
+                <a href="#precios">Precios</a>
+                <a href="#ubicacion">Ubicacion</a>
+                <a href="#">Nosotros</a>
+                </div>
+            </div>
+            <!**********Fin Dropdown para celulares**********> 
+        </header>
+        <!<!**********Fin del Header**********>
+        
+
+        <!<!**********Comienzo del Menu (foto + listado)**********> 
+        <div class="imagenPlato">
+            <img class="imagen" src="images/foto.jpg" id="foto" alt="">
+        </div>        
+        <div class="listadoMenu">
+            <h2>Nuestros Platos</h2>
+                <button onclick="document.getElementById('foto').src='images/foto1.jpg'" class="botonPlato">Tarta Atun</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Tarta Verdura</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Tarta Choclo</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Pizzeta Jamon</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Pizzeta Queso</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Pizzeta Cebolla</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Zapallitos Rellenos</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Pastel de Calabaza</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Albondigas con Arroz</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Bastones de Pollo</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Medallon de Pollo</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Medallon de Carne</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Fideos con Pollo</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Fideos con Carne</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Brochettes con papas</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Milanesa de Berenjena</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Creppes de Carne</button>
+                <button onclick="document.getElementById('foto').src='images/foto2.jpg'" class="botonPlato">Creppes de Verdura</button>
+        </div>
+        <!**********Fin del Menu (foto + listado)**********> 
+
+        <!**********Comienzo Precios**********>
+        <div class="precios">
+            <a name="precios"></a>
+            <h2 class="tituloPrecios">Compra Nuestros Packs</h2>
+            <div class="comprar">
+                <button class="botonMercadopago">5 Viandas</button>
+                <button class="botonMercadopago">10 Viandas</button>
+                <button class="botonMercadopago">15 Viandas</button>
+                <button class="botonMercadopago">20 Viandas</button>
+            </div>
+        </div>
+        <!**********Fin Precios**********>
+
+        <!**********Comienzo Ubicacion**********>
+        <div class="ubicacion">
+            <a name="ubicacion"></a>
+            <div class="textoUbicacion">
+                <h2 class="tituloUbicacion">¿Donde nos encontramos?</h2>
+                 <h4 class="descripcionUbicacion">Villa Devoto. A metros de Gral. Paz y Av San Martin</h4><br>
+            </div>
+            
+            <div class="mapaUbicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4517791567623!2d-58.51705018433957!3d-34.59273578046237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7b427001953%3A0xca34ca9364a984f2!2sCarlos+Antonio+L%C3%B3pez+3800%2C+C1419EUH+CABA!5e0!3m2!1ses!2sar!4v1559593575785!5m2!1ses!2sar" width="800" height="500" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!**********Fin Ubicacion**********>
+
+        <!**********Comienzo Redes Sociales**********>
+        <div class="redesSociales">
+            <h2 class="tituloRedes">Redes Sociales</h2>
+            <div class="logosRedes">
+               <a href="https://www.instagram.com/greenpepperviandas/" target="_blank">
+                <img src="images/logoIg.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/viandasgreenpepper/" target="_blank">
+                <img src="images/logoFb.png" alt="">
+            </a>
+            </div>            
+        </div>
+        <!**********Fin Redes Sociales**********>
+        
+        <!**********Comienzo Contacto**********>
+        <div class="contacto">
+            <a name="contacto"></a>
+            <form class="formularioContacto" action="">
+                <h2 class="tituloFormulario">Contacto</h2>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="correo" placeholder="Correo">
+                <input type="text" name="telefono" placeholder="Telefono">
+                <textarea name="mensaje" placeholder="Escriba su mensaje aqui"></textarea>
+                <input type="button" value="ENVIAR" id="boton">
+            </form>
+        </div>
+
+        <!**********Fin Contacto**********>
+        
+        <!**********Comienzo Footer**********>
+        <footer class="footer">
+            <h2>- Pagina creada por Patricio Bordenave -</h2>
+        </footer>
+        <!**********Fin footer**********>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
